@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    text-align: center;
+     text-shadow: 2px 2px #323232;
+    
+
+}
+
+.dark-mode {
+    background-color: #323232;
+    color: #ecf0f1;
+}
+
+.container {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 80px 80px, rgba(0, 0, 0, 0.25) 0px -16px 40px, rgba(0, 0, 0, 0.25) 0px 8px 12px, rgba(0, 0, 0, 0.3) 0px 16px 16px, rgba(0, 0, 0, 0.15) 0px -4px 8px;
+    border-radius: 5%;
+
+}
+
+.toolbox {
+    background-color: #282828;
+    border: 1px solid #282828;
+    display: flex;
+    flex-direction: column; /* Updated to column */
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 80px 80px, rgba(0, 0, 0, 0.25) 0px -16px 40px, rgba(0, 0, 0, 0.25) 0px 8px 12px, rgba(0, 0, 0, 0.3) 0px 16px 16px, rgba(0, 0, 0, 0.15) 0px -4px 8px;
+
+
+.allbuttons {
+    display: flex;
+    flex-direction: column; /* Updated to column */
+    align-items: center; /* Center items horizontally */
+    gap: 40px;
+    
+}
+
+#clear, #increase, #decrease {
+    background-color: #34495e;
+    color: #ecf0f1;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 80px 80px, rgba(0, 0, 0, 0.25) 0px -16px 40px, rgba(0, 0, 0, 0.25) 0px 8px 12px, rgba(0, 0, 0, 0.3) 0px 16px 16px, rgba(0, 0, 0, 0.15) 0px -4px 8px;
+
+}
+#color {
+        background-color: red;
+        color: #ecf0f1;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 80px 80px, rgba(0, 0, 0, 0.25) 0px -16px 40px, rgba(0, 0, 0, 0.25) 0px 8px 12px, rgba(0, 0, 0, 0.3) 0px 16px 16px, rgba(0, 0, 0, 0.15) 0px -4px 8px;
+    
+    
+}
+#size{
+    background-color: #34495e;
+    color: #ecf0f1;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.toolbox button:hover {
+    background-color: #282828;
+    color: #fff;
+}
+
+#toggleMode {
+    background-color: #34495e;
+    color: #ecf0f1;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#toggleMode:hover {
+    background-color: #4d629f;
+}
